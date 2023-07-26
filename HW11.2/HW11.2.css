@@ -1,0 +1,100 @@
+body {
+    max-width: 1000px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    background-color: #3e91aa;
+}
+
+#result {
+    margin-top: 50px;
+}
+
+.post {
+    text-align: left;
+    font-size: 20px;
+    font-style: italic;
+    margin: 16px 31px 31px 16px;
+    padding: 16px 24px;
+    border-radius: 20px;
+    position: relative;
+    color: #C971A3;
+    background-color: #5D4778;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #C971A3, #d8b8ca);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.container {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.aks-input-text {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color: #fff;
+    width: 250px;
+    height: 20px;
+    border-radius: 7px;
+    padding: 8px 10px;
+    outline: none;
+    display: flex;
+    position: relative;
+    margin: 0;
+    cursor: auto;
+    border: 0.1rem solid #696485;
+    background: #8B85AF;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.aks-input-text::placeholder {
+    color: #fff;
+}
+
+.aks-input-text:hover {
+    border-color: #C971A3;
+}
+
+.aks-input-text:focus {
+    box-shadow: 0 0 0 2px rgba(39, 94, 254, 0.3);
+    border-color: #C971A3;
+}
+
+.aks-input[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100px;
+    border-radius: 7px;
+    padding: 8px 10px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: unset;
+    position: relative;
+    margin: 0;
+    cursor: pointer;
+    border: 0.1rem solid #000000;
+    background: #292631;
+    color: #fff;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.aks-input[type="submit"]:hover {
+    border-color: #C971A3;
+}
+
+.aks-input[type="submit"]:focus {
+    box-shadow: 0 0 0 3px #C971A3;
+    border-color: #C971A3;
+}
